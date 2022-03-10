@@ -5,5 +5,9 @@ export default defineConfig({
   external: [
     'vuex',
     'vue'
+  ],
+  format: [
+    'cjs',
+    "esm"
   ]
 })
